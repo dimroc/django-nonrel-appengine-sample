@@ -4,20 +4,20 @@ import os
 	 	
 version = '0.1'
  	
-setup(name='my.sampleproject',	 	
+setup(name='dimini.boilerplate',	 	
       version=version,	 	
-      description="Sample django-nonrel Google Appengine app as Python egg",	 	
+      description="Dimini django-nonrel Google Appengine app as Python egg",	 	
       long_description="",
       classifiers=[
         "Programming Language :: Python",
         ],
       keywords='',
-      author='mFabrik Research Oy',
-      author_email='info@mfabrik.com',
+      author='Dimitri Roche',
+      author_email='dimroc@gmail.com',
       url='',
-      license='GPL',
+      license='BSD',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=["my"], 
+      namespace_packages=["dimini"], 
       include_package_data=True,
       zip_safe=False,
       install_requires=[
