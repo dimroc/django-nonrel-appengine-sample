@@ -15,7 +15,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'djangotoolbox',
-    'django-piston',
+    'piston',
     'mediagenerator',
 
     # djangoappengine should come last, so it can override a few manage.py commands
